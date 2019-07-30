@@ -6,7 +6,7 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import items from "../scifi.json";
+import items from "../fantasy.json";
 
 
 
@@ -47,7 +47,7 @@ class LatestRelease extends Component {
   }
 
   render() {
-    const { activeIndex } = this.state;
+    const {activeIndex } = this.state;
 
     const latestBooks = items.map((item) => {
       return (
@@ -56,10 +56,11 @@ class LatestRelease extends Component {
           <CarouselCaption captionText={item.price} captionHeader={item.title} />
         </CarouselItem>
       );
+  
     });
-
+   
     return (
-        <div className = "container latest">
+        <div className = "latest">
       <Carousel activeIndex={activeIndex} next={this.next} previous={this.previous}>
         <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {latestBooks}
@@ -68,7 +69,11 @@ class LatestRelease extends Component {
       </Carousel>
       </div>
     );
+    
+ 
+  
   }
+ 
 }
 
 

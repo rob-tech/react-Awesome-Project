@@ -35,7 +35,7 @@ class AwesomeNav extends Component {
           <NavbarBrand className = "brand" href="#">Awesome</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav navbar>
+            <Nav navbar className="links">
               <NavItem>
                 <NavLink href='#'>Home</NavLink>
               </NavItem>
@@ -56,3 +56,6 @@ class AwesomeNav extends Component {
 
 
 export default AwesomeNav;
+
+  	  	
+ 

@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 
-class AwesomeWelcome extends Component {
+
+
+class AwesomeWelcome  extends Component {
+
     render() {
       return (
         <div>
@@ -14,6 +17,8 @@ class AwesomeWelcome extends Component {
       </div>
           )
     }
-  }
+}
   
   export default AwesomeWelcome;
+
+  

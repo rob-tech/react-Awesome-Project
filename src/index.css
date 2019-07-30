@@ -36,9 +36,9 @@ right:0;
   
 }
 .jumboParent {
-  margin-top: 10px;
-  background-color: #F1D302;
-  padding-top: 10px;
+  /* margin-top: 10px; */
+  /* padding-top: 10px; */
+  background-image: url("./assets/images/Photo1.jpg")
 }
 
 .jumbo h1, p{
@@ -48,13 +48,20 @@ right:0;
 
   .latestRelease img{ 
     width: 100%;
+    margin-bottom: 200px;
   
   }
 
  .latest {
-   
       margin: 0 auto;
-      width: 50%;
+      width: 30%;
       margin-bottom: 50px;
-  }
-  
+  }  
+
+/* .latest{
+  min-height: 100%;  
+  min-height: 100vh; 
+  display: flex;
+  align-items: center;
+
+}  */
