@@ -8,7 +8,7 @@ class AwesomeWelcome extends Component {
         <Jumbotron fluid className="jumboParent">
           <Container fluid className = "jumbo">
             <h1 className="display-3">Welcome</h1>
-            <p className="lead">The is the Real Deal!</p>
+            <p className="lead">This is the Real Deal!</p>
           </Container>
         </Jumbotron>
       </div>
