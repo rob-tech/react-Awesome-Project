@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.AwesomeNav{
+  background-color: #235789; 
+  height: 35px
+
+}
+
+.page-footer{
+position:absolute;
+left:0;
+bottom:0;
+right:0;
+}
+
+.jumbo{
+   
+    text-align: center;
+    vertical-align: middle;  
+  
+}
+.jumboParent {
+  margin-top: 20px;
+  background-color: #F1D302
+}
+.jumbo h1, p{
+    font-family: "Oxygen";
+  }
