@@ -30,12 +30,33 @@ right:0;
    
     text-align: center;
     vertical-align: middle;  
+    height: 80px;
+   
   
 }
 .jumboParent {
-  margin-top: 20px;
-  background-color: #F1D302
+  margin-top: 10px;
+  background-color: #F1D302;
+  padding-top: 10px;
 }
+
 .jumbo h1, p{
     font-family: "Oxygen";
   }
+
+  .latestRelease img{ 
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  
+ 
+
+/* @media (min-width: 1200px){
+.container {
+    max-width: 600px;
+}
+ 
+
+} */

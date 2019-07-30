@@ -9,9 +9,9 @@ class ProjectAwesome extends Component {
       return (
         <>
         <AwesomeNav/>
-        <AwesomeFtr/>
         <AwesomeWelcome/>
         <LatestRelease/>
+        <AwesomeFtr/>
         </>
           )
     }
