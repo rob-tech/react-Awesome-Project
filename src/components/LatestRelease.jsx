@@ -4,7 +4,8 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption
+  CarouselCaption,
+  Col
 } from 'reactstrap';
 import items from "../fantasy.json";
 
@@ -51,10 +52,13 @@ class LatestRelease extends Component {
 
     const latestBooks = items.map((item) => {
       return (
+      
         <CarouselItem onExiting={this.onExiting} onExited={this.onExited} key={item.img} className ="latestRelease">
+        
           <img src={item.img} alt={item.title} />
-          <CarouselCaption captionText={item.price} captionHeader={item.title} />
+          <CarouselCaption captionText={item.price.toString()} captionHeader={item.title} />
         </CarouselItem>
+     
       );
   
     });
